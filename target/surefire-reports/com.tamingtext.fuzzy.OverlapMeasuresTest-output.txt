@@ -1,0 +1,11 @@
+Id: 0 Val: bob
+Id: 1 Val: fob
+Id: 2 Val: job
+Id: 3 Val: cob
+Id: 4 Val: bobo
+Total hits: 5
+Id: 4 score: 0.22085486
+Id: 0 score: 0.18851142
+Id: 1 score: 0.15616798
+Id: 2 score: 0.15616798
+Id: 3 score: 0.15616798

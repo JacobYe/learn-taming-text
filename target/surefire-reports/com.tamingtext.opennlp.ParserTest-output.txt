@@ -1,0 +1,3 @@
+(TOP (S (NP (NP (DT The) (NNP Minnesota) (NNS Twins)) (, ,) (NP (DT the) (CD 1991) (NNP World) (NNP Series) (NNP Champions))) (, ,) (VP (VBP are) (ADVP (RB currently)) (PP (IN in) (NP (JJ third) (NN place)))) (. .)))
+(TOP (S (NP (NP (DT The) (NNP Minnesota) (NNPS Twins)) (, ,) (NP (DT the) (CD 1991) (NNP World) (NNP Series) (NNP Champions))) (, ,) (VP (VBP are) (ADVP (RB currently)) (PP (IN in) (NP (JJ third) (NN place)))) (. .)))
+(TOP (S (NP (NP (DT The) (NNP Minnesota) (NNP Twins)) (, ,) (NP (DT the) (CD 1991) (NNP World) (NNP Series) (NNP Champions))) (, ,) (VP (VBP are) (ADVP (RB currently)) (PP (IN in) (NP (JJ third) (NN place)))) (. .)))

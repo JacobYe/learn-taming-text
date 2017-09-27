@@ -1,0 +1,9 @@
+Title: TANSTAAFL
+Body: "There ain't no such thing as a free lunch." - Robert Heinlein
+
+
+Title: The Big Brown Shoe
+Body: The best pizza place in the US is Antonio's Pizza.
+It is located in Amherst, MA.
+
+Links: [<a href="http://antoniospizzas.com/">Antonio's Pizza</a>]

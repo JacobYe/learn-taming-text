@@ -1,0 +1,425 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/drew/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/drew/.m2/repository/edu/ucar/netcdf/4.2/netcdf-4.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+0    INFO  solr.SolrTestCaseJ4  - ####initCore
+16   INFO  core.SolrResourceLoader  - JNDI not configured for solr (NoInitialContextEx)
+17   INFO  core.SolrResourceLoader  - using system property solr.solr.home: /home/drew/projects/taming-text/svn/book/target/test-classes/solr
+18   INFO  core.SolrResourceLoader  - new SolrResourceLoader for deduced Solr Home: '/home/drew/projects/taming-text/svn/book/target/test-classes/solr/'
+207  WARN  core.Config  - the luceneMatchVersion is not specified, defaulting to LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.4 emulation is deprecated and will be removed in 4.0. This parameter will be mandatory in 4.0.
+274  INFO  core.SolrConfig  - Using Lucene MatchVersion: LUCENE_24
+347  INFO  core.Config  - Loaded SolrConfig: bayes-update-config.xml
+355  INFO  schema.IndexSchema  - Reading Solr Schema
+360  INFO  schema.IndexSchema  - Schema name=test-bayes-update
+379  INFO  plugin.AbstractPluginLoader  - created string: org.apache.solr.schema.StrField
+393  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+393  WARN  analysis.BaseTokenStreamFactory  - WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+401  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.LowerCaseFilterFactory
+401  WARN  analysis.BaseTokenStreamFactory  - LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+404  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.SnowballPorterFilterFactory
+413  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+413  WARN  analysis.BaseTokenStreamFactory  - WhitespaceTokenizerFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+415  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.LowerCaseFilterFactory
+415  WARN  analysis.BaseTokenStreamFactory  - LowerCaseFilterFactory is using deprecated LUCENE_24 emulation. You should at some point declare and reindex to at least 3.0, because 2.x emulation is deprecated and will be removed in 4.0
+415  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.SnowballPorterFilterFactory
+417  INFO  plugin.AbstractPluginLoader  - created text: org.apache.solr.schema.TextField
+423  INFO  schema.IndexSchema  - default search field in schema is details
+426  INFO  schema.IndexSchema  - unique key field: id
+434  INFO  core.SolrResourceLoader  - JNDI not configured for solr (NoInitialContextEx)
+434  INFO  core.SolrResourceLoader  - using system property solr.solr.home: /home/drew/projects/taming-text/svn/book/target/test-classes/solr
+434  INFO  core.SolrResourceLoader  - new SolrResourceLoader for directory: '/home/drew/projects/taming-text/svn/book/target/test-classes/solr/'
+456  INFO  core.SolrCore  - Opening new SolrCore at /home/drew/projects/taming-text/svn/book/target/test-classes/solr/, dataDir=/tmp/solrtest-ExtractTrainingDataTest-1357095548230/
+456  INFO  core.SolrCore  - JMX monitoring not detected for core: null
+459  WARN  core.SolrCore  - Solr index directory '/tmp/solrtest-ExtractTrainingDataTest-1357095548230/index' doesn't exist. Creating new index...
+612  INFO  core.SolrCore  - SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=/tmp/solrtest-ExtractTrainingDataTest-1357095548230/index,segFN=segments_1,version=1357095548745,generation=1,filenames=[segments_1]
+613  INFO  core.SolrCore  - newest commit = 1357095548745
+983  INFO  bayes.SequenceFileModelReader  - 4.365993800586751
+994  INFO  bayes.InMemoryBayesDatastore  - scifi -35.0113548753264 35.0113548753264 -1.0
+995  INFO  bayes.InMemoryBayesDatastore  - fantasy -29.380574770799143 35.0113548753264 -0.8391727448258381
+1020 INFO  core.RequestHandlers  - created standard: solr.StandardRequestHandler
+1040 INFO  search.SolrIndexSearcher  - Opening Searcher@25cbfa42 main
+1053 INFO  core.SolrCore  - commitTracker AutoCommit: disabled
+1064 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.QueryComponent@b05236
+1064 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.FacetComponent@37e55794
+1064 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@31d8d237
+1064 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.HighlightComponent@11d13272
+1065 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.StatsComponent@3d46e381
+1065 INFO  component.SearchHandler  - Adding  debug component:org.apache.solr.handler.component.DebugComponent@79024994
+1065 INFO  component.HttpShardHandlerFactory  - Setting socketTimeout to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting urlScheme to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting connTimeout to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting maxConnectionsPerHost to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting corePoolSize to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting maximumPoolSize to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting maxThreadIdleTime to: 0
+1065 INFO  component.HttpShardHandlerFactory  - Setting sizeOfQueue to: 0
+1066 INFO  component.HttpShardHandlerFactory  - Setting fairnessPolicy to: 0
+1084 INFO  core.CoreContainer  - registering core: 
+1084 INFO  core.SolrCore  - [] Registered new searcher Searcher@25cbfa42 main
+1101 INFO  solr.SolrTestCaseJ4  - ####initCore end
+1109 INFO  solr.SolrTestCaseJ4  - ###Starting testExtract
+1176 INFO  core.SolrCore  - SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/tmp/solrtest-ExtractTrainingDataTest-1357095548230/index,segFN=segments_1,version=1357095548745,generation=1,filenames=[segments_1]
+1177 INFO  core.SolrCore  - newest commit = 1357095548745
+1199 INFO  processor.LogUpdateProcessor  - {add=[1]} 0 85
+1203 INFO  processor.LogUpdateProcessor  - {add=[2]} 0 1
+1207 INFO  processor.LogUpdateProcessor  - {add=[3]} 0 1
+1211 INFO  processor.LogUpdateProcessor  - {add=[4]} 0 2
+1214 INFO  processor.LogUpdateProcessor  - {add=[5]} 0 1
+1218 INFO  processor.LogUpdateProcessor  - {add=[6]} 0 1
+1220 INFO  update.UpdateHandler  - start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+1288 INFO  core.SolrCore  - SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/tmp/solrtest-ExtractTrainingDataTest-1357095548230/index,segFN=segments_1,version=1357095548745,generation=1,filenames=[segments_1]
+	commit{dir=/tmp/solrtest-ExtractTrainingDataTest-1357095548230/index,segFN=segments_2,version=1357095548747,generation=2,filenames=[_0.tis, _0.nrm, _0.fnm, _0.tii, _0.tvx, _0.frq, _0.tvd, segments_2, _0.fdx, _0.tvf, _0.prx, _0.fdt]
+1288 INFO  core.SolrCore  - newest commit = 1357095548747
+1300 INFO  search.SolrIndexSearcher  - Opening Searcher@1531164 main
+1301 INFO  update.UpdateHandler  - end_commit_flush
+1301 INFO  search.SolrIndexSearcher  - autowarming Searcher@1531164 main from Searcher@25cbfa42 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+1302 INFO  search.SolrIndexSearcher  - autowarming result for Searcher@1531164 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+1303 INFO  core.SolrCore  - [] Registered new searcher Searcher@1531164 main
+1303 INFO  search.SolrIndexSearcher  - Closing Searcher@25cbfa42 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+1303 INFO  processor.LogUpdateProcessor  - {commit=} 0 83
+1309 INFO  bayes.ExtractTrainingData  - Command-line arguments: [--dir, /tmp/solrtest-ExtractTrainingDataTest-1357095548230/index, --categories, /home/drew/projects/taming-text/svn/book/src/test/resources/solr/conf/categories.txt, --output, /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract, --category-fields, category, --text-fields, details, --use-term-vectors]
+1339 INFO  bayes.ExtractTrainingData  - Index dir: /tmp/solrtest-ExtractTrainingDataTest-1357095548230/index
+1339 INFO  bayes.ExtractTrainingData  - Category file: /home/drew/projects/taming-text/svn/book/src/test/resources/solr/conf/categories.txt
+1340 INFO  bayes.ExtractTrainingData  - Output dir: /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract
+1340 INFO  bayes.ExtractTrainingData  - Category fields: [category]
+1340 INFO  bayes.ExtractTrainingData  - Text fields: [details]
+1340 INFO  bayes.ExtractTrainingData  - Use Term Vectors?: true
+1358 INFO  bayes.ExtractTrainingData  - 
+Catagory document counts:
+3	fantasy
+3	scifi
+
+1365 INFO  bayes.TrainClassifier  - Training Bayes Classifier
+1400 INFO  bayes.BayesDriver  - Reading features...
+1529 WARN  mapred.JobClient  - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+1594 INFO  mapred.FileInputFormat  - Total input paths to process : 2
+1752 INFO  mapred.JobClient  - Running job: job_local_0001
+1799 INFO  mapred.MapTask  - numReduceTasks: 1
+1805 INFO  mapred.MapTask  - io.sort.mb = 100
+1853 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+1854 INFO  mapred.MapTask  - record buffer = 262144/327680
+1871 INFO  common.BayesFeatureMapper  - Bayes Parameter {alpha_i=1.0, dataSource=hdfs, gramSize=1, minDf=1}
+1878 INFO  mapred.MapTask  - Starting flush of map output
+1907 INFO  mapred.MapTask  - Finished spill 0
+1909 INFO  mapred.Task  - Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+2755 INFO  mapred.JobClient  -  map 0% reduce 0%
+4792 INFO  mapred.LocalJobRunner  - Bayes Feature Mapper: Document Label: fantasy
+4792 INFO  mapred.Task  - Task 'attempt_local_0001_m_000000_0' done.
+4799 INFO  mapred.MapTask  - numReduceTasks: 1
+4800 INFO  mapred.MapTask  - io.sort.mb = 100
+4852 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+4852 INFO  mapred.MapTask  - record buffer = 262144/327680
+4864 INFO  common.BayesFeatureMapper  - Bayes Parameter {alpha_i=1.0, dataSource=hdfs, gramSize=1, minDf=1}
+4868 INFO  mapred.MapTask  - Starting flush of map output
+4885 INFO  mapred.MapTask  - Finished spill 0
+4887 INFO  mapred.Task  - Task:attempt_local_0001_m_000001_0 is done. And is in the process of commiting
+5757 INFO  mapred.JobClient  -  map 100% reduce 0%
+7795 INFO  mapred.LocalJobRunner  - Bayes Feature Mapper: Document Label: scifi
+7796 INFO  mapred.Task  - Task 'attempt_local_0001_m_000001_0' done.
+7811 INFO  mapred.LocalJobRunner  - 
+7816 INFO  mapred.Merger  - Merging 2 sorted segments
+7827 INFO  mapred.Merger  - Down to the last merge-pass, with 2 segments left of total size: 2496 bytes
+7827 INFO  mapred.LocalJobRunner  - 
+7840 INFO  common.BayesFeatureReducer  - Bayes Parameter {alpha_i=1.0, dataSource=hdfs, gramSize=1, minDf=1}
+7878 INFO  mapred.Task  - Task:attempt_local_0001_r_000000_0 is done. And is in the process of commiting
+7879 INFO  mapred.LocalJobRunner  - 
+7880 INFO  mapred.Task  - Task attempt_local_0001_r_000000_0 is allowed to commit now
+7890 INFO  mapred.FileOutputCommitter  - Saved output of task 'attempt_local_0001_r_000000_0' to file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model
+10811 INFO  mapred.LocalJobRunner  - Bayes Feature Reducer: [__WT, scifi, wars:] => 0.8240100545189644 > reduce
+10812 INFO  mapred.Task  - Task 'attempt_local_0001_r_000000_0' done.
+11760 INFO  mapred.JobClient  -  map 100% reduce 100%
+11760 INFO  mapred.JobClient  - Job complete: job_local_0001
+11761 INFO  mapred.JobClient  - Counters: 17
+11761 INFO  mapred.JobClient  -   File Input Format Counters 
+11762 INFO  mapred.JobClient  -     Bytes Read=250
+11762 INFO  mapred.JobClient  -   File Output Format Counters 
+11762 INFO  mapred.JobClient  -     Bytes Written=2765
+11762 INFO  mapred.JobClient  -   FileSystemCounters
+11763 INFO  mapred.JobClient  -     FILE_BYTES_READ=4999695
+11763 INFO  mapred.JobClient  -     FILE_BYTES_WRITTEN=5137632
+11763 INFO  mapred.JobClient  -   Map-Reduce Framework
+11763 INFO  mapred.JobClient  -     Map output materialized bytes=2504
+11764 INFO  mapred.JobClient  -     Map input records=6
+11764 INFO  mapred.JobClient  -     Reduce shuffle bytes=0
+11764 INFO  mapred.JobClient  -     Spilled Records=180
+11764 INFO  mapred.JobClient  -     Map output bytes=3736
+11765 INFO  mapred.JobClient  -     Map input bytes=250
+11765 INFO  mapred.JobClient  -     SPLIT_RAW_BYTES=290
+11765 INFO  mapred.JobClient  -     Combine input records=146
+11766 INFO  mapred.JobClient  -     Reduce input records=90
+11766 INFO  mapred.JobClient  -     Reduce input groups=86
+11766 INFO  mapred.JobClient  -     Combine output records=90
+11766 INFO  mapred.JobClient  -     Reduce output records=66
+11766 INFO  mapred.JobClient  -     Map output records=146
+11767 INFO  bayes.BayesDriver  - Calculating Tf-Idf...
+11794 INFO  common.BayesTfIdfDriver  - Counts of documents in Each Label
+11794 INFO  common.BayesTfIdfDriver  - {fantasy=3.0, scifi=3.0}
+11794 INFO  common.BayesTfIdfDriver  - {dataSource=hdfs, alpha_i=1.0, minDf=1, gramSize=1}
+11810 WARN  mapred.JobClient  - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+11836 INFO  mapred.FileInputFormat  - Total input paths to process : 3
+11885 INFO  mapred.JobClient  - Running job: job_local_0002
+11893 INFO  mapred.MapTask  - numReduceTasks: 1
+11894 INFO  mapred.MapTask  - io.sort.mb = 100
+11950 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+11950 INFO  mapred.MapTask  - record buffer = 262144/327680
+11957 INFO  mapred.MapTask  - Starting flush of map output
+11964 INFO  mapred.MapTask  - Finished spill 0
+11966 INFO  mapred.Task  - Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+12887 INFO  mapred.JobClient  -  map 0% reduce 0%
+14890 INFO  mapred.LocalJobRunner  - Bayes TfIdf Mapper: log(Idf): [__WT, scifi, wars:]
+14891 INFO  mapred.Task  - Task 'attempt_local_0002_m_000000_0' done.
+14900 INFO  mapred.MapTask  - numReduceTasks: 1
+14900 INFO  mapred.MapTask  - io.sort.mb = 100
+14951 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+14951 INFO  mapred.MapTask  - record buffer = 262144/327680
+14954 INFO  mapred.MapTask  - Starting flush of map output
+14960 INFO  mapred.MapTask  - Finished spill 0
+14962 INFO  mapred.Task  - Task:attempt_local_0002_m_000001_0 is done. And is in the process of commiting
+15888 INFO  mapred.JobClient  -  map 100% reduce 0%
+17894 INFO  mapred.LocalJobRunner  - Bayes TfIdf Mapper: Tf: [__WT, scifi, wars:]
+17894 INFO  mapred.Task  - Task 'attempt_local_0002_m_000001_0' done.
+17900 INFO  mapred.MapTask  - numReduceTasks: 1
+17900 INFO  mapred.MapTask  - io.sort.mb = 100
+17960 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+17961 INFO  mapred.MapTask  - record buffer = 262144/327680
+17966 INFO  mapred.MapTask  - Starting flush of map output
+17968 INFO  common.BayesTfIdfReducer  - [__FS]	20.0
+17969 INFO  mapred.MapTask  - Finished spill 0
+17971 INFO  mapred.Task  - Task:attempt_local_0002_m_000002_0 is done. And is in the process of commiting
+20897 INFO  mapred.LocalJobRunner  - Bayes TfIdf Mapper: vocabCount
+20897 INFO  mapred.Task  - Task 'attempt_local_0002_m_000002_0' done.
+20908 INFO  mapred.LocalJobRunner  - 
+20911 INFO  mapred.Merger  - Merging 3 sorted segments
+20912 INFO  mapred.Merger  - Down to the last merge-pass, with 3 segments left of total size: 1397 bytes
+20912 INFO  mapred.LocalJobRunner  - 
+20914 INFO  common.BayesTfIdfReducer  - [__FS]	20.0
+20922 INFO  mapred.Task  - Task:attempt_local_0002_r_000000_0 is done. And is in the process of commiting
+20923 INFO  mapred.LocalJobRunner  - 
+20923 INFO  mapred.Task  - Task attempt_local_0002_r_000000_0 is allowed to commit now
+20933 INFO  mapred.FileOutputCommitter  - Saved output of task 'attempt_local_0002_r_000000_0' to file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-tfIdf
+23908 INFO  mapred.LocalJobRunner  - Bayes TfIdf Reducer: [__WT, scifi, wars:] => 0.0 > reduce
+23909 INFO  mapred.Task  - Task 'attempt_local_0002_r_000000_0' done.
+24892 INFO  mapred.JobClient  -  map 100% reduce 100%
+24892 INFO  mapred.JobClient  - Job complete: job_local_0002
+24893 INFO  mapred.JobClient  - Counters: 17
+24893 INFO  mapred.JobClient  -   File Input Format Counters 
+24893 INFO  mapred.JobClient  -     Bytes Read=2590
+24893 INFO  mapred.JobClient  -   File Output Format Counters 
+24893 INFO  mapred.JobClient  -     Bytes Written=1069
+24893 INFO  mapred.JobClient  -   FileSystemCounters
+24894 INFO  mapred.JobClient  -     FILE_BYTES_READ=13340039
+24894 INFO  mapred.JobClient  -     FILE_BYTES_WRITTEN=13706655
+24894 INFO  mapred.JobClient  -   Map-Reduce Framework
+24894 INFO  mapred.JobClient  -     Map output materialized bytes=1409
+24894 INFO  mapred.JobClient  -     Map input records=64
+24894 INFO  mapred.JobClient  -     Reduce shuffle bytes=0
+24894 INFO  mapred.JobClient  -     Spilled Records=90
+24894 INFO  mapred.JobClient  -     Map output bytes=1624
+24895 INFO  mapred.JobClient  -     Map input bytes=2245
+24895 INFO  mapred.JobClient  -     SPLIT_RAW_BYTES=500
+24895 INFO  mapred.JobClient  -     Combine input records=64
+24895 INFO  mapred.JobClient  -     Reduce input records=45
+24895 INFO  mapred.JobClient  -     Reduce input groups=23
+24895 INFO  mapred.JobClient  -     Combine output records=45
+24895 INFO  mapred.JobClient  -     Reduce output records=23
+24895 INFO  mapred.JobClient  -     Map output records=64
+24895 INFO  bayes.BayesDriver  - Calculating weight sums for labels and features...
+24917 WARN  mapred.JobClient  - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+24937 INFO  mapred.FileInputFormat  - Total input paths to process : 1
+24978 INFO  mapred.JobClient  - Running job: job_local_0003
+24985 INFO  mapred.MapTask  - numReduceTasks: 1
+24986 INFO  mapred.MapTask  - io.sort.mb = 100
+25037 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+25037 INFO  mapred.MapTask  - record buffer = 262144/327680
+25042 INFO  mapred.MapTask  - Starting flush of map output
+25054 INFO  mapred.MapTask  - Finished spill 0
+25059 INFO  mapred.Task  - Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+25979 INFO  mapred.JobClient  -  map 0% reduce 0%
+27984 INFO  mapred.LocalJobRunner  - Bayes Weight Summer Mapper: [__WT, scifi, wars:]
+27984 INFO  mapred.Task  - Task 'attempt_local_0003_m_000000_0' done.
+27989 INFO  mapred.LocalJobRunner  - 
+27991 INFO  mapred.Merger  - Merging 1 sorted segments
+27992 INFO  mapred.Merger  - Down to the last merge-pass, with 1 segments left of total size: 563 bytes
+27992 INFO  mapred.LocalJobRunner  - 
+28002 INFO  mapred.Task  - Task:attempt_local_0003_r_000000_0 is done. And is in the process of commiting
+28003 INFO  mapred.LocalJobRunner  - 
+28004 INFO  mapred.Task  - Task attempt_local_0003_r_000000_0 is allowed to commit now
+28012 INFO  mapred.FileOutputCommitter  - Saved output of task 'attempt_local_0003_r_000000_0' to file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-weights
+28981 INFO  mapred.JobClient  -  map 100% reduce 0%
+30988 INFO  mapred.LocalJobRunner  - Bayes Weight Summer Reducer: [__SK, scifi] => 2.9790226549678076 > reduce
+30989 INFO  mapred.Task  - Task 'attempt_local_0003_r_000000_0' done.
+31982 INFO  mapred.JobClient  -  map 100% reduce 100%
+31982 INFO  mapred.JobClient  - Job complete: job_local_0003
+31983 INFO  mapred.JobClient  - Counters: 17
+31983 INFO  mapred.JobClient  -   File Input Format Counters 
+31983 INFO  mapred.JobClient  -     Bytes Read=933
+31983 INFO  mapred.JobClient  -   File Output Format Counters 
+31984 INFO  mapred.JobClient  -     Bytes Written=1036
+31984 INFO  mapred.JobClient  -   FileSystemCounters
+31984 INFO  mapred.JobClient  -     FILE_BYTES_READ=10002749
+31984 INFO  mapred.JobClient  -     FILE_BYTES_WRITTEN=10275768
+31984 INFO  mapred.JobClient  -   Map-Reduce Framework
+31984 INFO  mapred.JobClient  -     Map output materialized bytes=567
+31985 INFO  mapred.JobClient  -     Map input records=22
+31985 INFO  mapred.JobClient  -     Reduce shuffle bytes=0
+31985 INFO  mapred.JobClient  -     Spilled Records=46
+31985 INFO  mapred.JobClient  -     Map output bytes=1412
+31986 INFO  mapred.JobClient  -     Map input bytes=818
+31986 INFO  mapred.JobClient  -     SPLIT_RAW_BYTES=175
+31986 INFO  mapred.JobClient  -     Combine input records=66
+31987 INFO  mapred.JobClient  -     Reduce input records=23
+31987 INFO  mapred.JobClient  -     Reduce input groups=23
+31987 INFO  mapred.JobClient  -     Combine output records=23
+31987 INFO  mapred.JobClient  -     Reduce output records=23
+31988 INFO  mapred.JobClient  -     Map output records=66
+31988 INFO  bayes.BayesDriver  - Calculating the weight Normalisation factor for each class...
+32005 INFO  bayes.BayesThetaNormalizerDriver  - Sigma_k for Each Label
+32005 INFO  bayes.BayesThetaNormalizerDriver  - {fantasy=1.3869711456189435, scifi=2.9790226549678076}
+32007 INFO  bayes.BayesThetaNormalizerDriver  - Sigma_kSigma_j for each Label and for each Features
+32007 INFO  bayes.BayesThetaNormalizerDriver  - 4.365993800586751
+32009 INFO  bayes.BayesThetaNormalizerDriver  - Vocabulary Count
+32009 INFO  bayes.BayesThetaNormalizerDriver  - 20.0
+32017 WARN  mapred.JobClient  - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+32030 INFO  mapred.FileInputFormat  - Total input paths to process : 1
+32069 INFO  mapred.JobClient  - Running job: job_local_0004
+32073 INFO  mapred.MapTask  - numReduceTasks: 1
+32073 INFO  mapred.MapTask  - io.sort.mb = 100
+32128 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+32128 INFO  mapred.MapTask  - record buffer = 262144/327680
+32138 INFO  mapred.MapTask  - Starting flush of map output
+32140 INFO  mapred.MapTask  - Finished spill 0
+32141 INFO  mapred.Task  - Task:attempt_local_0004_m_000000_0 is done. And is in the process of commiting
+33070 INFO  mapred.JobClient  -  map 0% reduce 0%
+35072 INFO  mapred.LocalJobRunner  - Bayes Theta Normalizer Mapper: scifi
+35073 INFO  mapred.Task  - Task 'attempt_local_0004_m_000000_0' done.
+35077 INFO  mapred.LocalJobRunner  - 
+35079 INFO  mapred.Merger  - Merging 1 sorted segments
+35079 INFO  mapred.Merger  - Down to the last merge-pass, with 1 segments left of total size: 54 bytes
+35079 INFO  mapred.LocalJobRunner  - 
+35085 INFO  mapred.Task  - Task:attempt_local_0004_r_000000_0 is done. And is in the process of commiting
+35086 INFO  mapred.LocalJobRunner  - 
+35086 INFO  mapred.Task  - Task attempt_local_0004_r_000000_0 is allowed to commit now
+35088 INFO  mapred.FileOutputCommitter  - Saved output of task 'attempt_local_0004_r_000000_0' to file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-thetaNormalizer
+36071 INFO  mapred.JobClient  -  map 100% reduce 0%
+38077 INFO  mapred.LocalJobRunner  - Bayes Theta Normalizer Reducer: [_LTN, scifi] => -35.0113548753264 > reduce
+38078 INFO  mapred.Task  - Task 'attempt_local_0004_r_000000_0' done.
+39072 INFO  mapred.JobClient  -  map 100% reduce 100%
+39072 INFO  mapred.JobClient  - Job complete: job_local_0004
+39073 INFO  mapred.JobClient  - Counters: 17
+39073 INFO  mapred.JobClient  -   File Input Format Counters 
+39073 INFO  mapred.JobClient  -     Bytes Read=933
+39073 INFO  mapred.JobClient  -   File Output Format Counters 
+39073 INFO  mapred.JobClient  -     Bytes Written=175
+39073 INFO  mapred.JobClient  -   FileSystemCounters
+39074 INFO  mapred.JobClient  -     FILE_BYTES_READ=13332350
+39074 INFO  mapred.JobClient  -     FILE_BYTES_WRITTEN=13698271
+39074 INFO  mapred.JobClient  -   Map-Reduce Framework
+39074 INFO  mapred.JobClient  -     Map output materialized bytes=58
+39074 INFO  mapred.JobClient  -     Map input records=22
+39074 INFO  mapred.JobClient  -     Reduce shuffle bytes=0
+39074 INFO  mapred.JobClient  -     Spilled Records=4
+39074 INFO  mapred.JobClient  -     Map output bytes=526
+39074 INFO  mapred.JobClient  -     Map input bytes=818
+39074 INFO  mapred.JobClient  -     SPLIT_RAW_BYTES=175
+39074 INFO  mapred.JobClient  -     Combine input records=22
+39075 INFO  mapred.JobClient  -     Reduce input records=2
+39075 INFO  mapred.JobClient  -     Reduce input groups=2
+39075 INFO  mapred.JobClient  -     Combine output records=2
+39075 INFO  mapred.JobClient  -     Reduce output records=2
+39075 INFO  mapred.JobClient  -     Map output records=22
+39076 INFO  common.HadoopUtil  - Deleting /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-docCount
+39076 INFO  common.HadoopUtil  - Deleting /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-termDocCount
+39077 INFO  common.HadoopUtil  - Deleting /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-featureCount
+39078 INFO  common.HadoopUtil  - Deleting /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-wordFreq
+39079 INFO  common.HadoopUtil  - Deleting /home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model/trainer-tfIdf/trainer-vocabCount
+39098 WARN  mapred.JobClient  - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+39110 INFO  mapred.FileInputFormat  - Total input paths to process : 2
+39133 INFO  mapred.JobClient  - Running job: job_local_0005
+39143 INFO  mapred.MapTask  - numReduceTasks: 1
+39144 INFO  mapred.MapTask  - io.sort.mb = 100
+39310 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+39310 INFO  mapred.MapTask  - record buffer = 262144/327680
+39318 INFO  bayes.BayesClassifierMapper  - Bayes Parameter {basePath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model, classifierType=bayes, dataSource=hdfs, alpha_i=1.0, gramSize=1, verbose=false, encoding=UTF-8, confusionMatrix=null, defaultCat=unknown, testDirPath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract}
+39318 INFO  bayes.BayesClassifierMapper  - {basePath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model, classifierType=bayes, dataSource=hdfs, alpha_i=1.0, gramSize=1, verbose=false, encoding=UTF-8, confusionMatrix=null, defaultCat=unknown, testDirPath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract}
+39319 INFO  bayes.BayesClassifierMapper  - Testing Bayes Classifier
+39329 INFO  bayes.SequenceFileModelReader  - 4.365993800586751
+39332 INFO  bayes.InMemoryBayesDatastore  - scifi -35.0113548753264 35.0113548753264 -1.0
+39332 INFO  bayes.InMemoryBayesDatastore  - fantasy -29.380574770799143 35.0113548753264 -0.8391727448258381
+39345 INFO  mapred.MapTask  - Starting flush of map output
+39346 INFO  mapred.MapTask  - Finished spill 0
+39347 INFO  mapred.Task  - Task:attempt_local_0005_m_000000_0 is done. And is in the process of commiting
+40134 INFO  mapred.JobClient  -  map 0% reduce 0%
+42139 INFO  mapred.LocalJobRunner  - file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract/fantasy:0+140
+42140 INFO  mapred.Task  - Task 'attempt_local_0005_m_000000_0' done.
+42145 INFO  mapred.MapTask  - numReduceTasks: 1
+42145 INFO  mapred.MapTask  - io.sort.mb = 100
+42197 INFO  mapred.MapTask  - data buffer = 79691776/99614720
+42197 INFO  mapred.MapTask  - record buffer = 262144/327680
+42204 INFO  bayes.BayesClassifierMapper  - Bayes Parameter {basePath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model, classifierType=bayes, dataSource=hdfs, alpha_i=1.0, gramSize=1, verbose=false, encoding=UTF-8, confusionMatrix=null, defaultCat=unknown, testDirPath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract}
+42204 INFO  bayes.BayesClassifierMapper  - {basePath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/model, classifierType=bayes, dataSource=hdfs, alpha_i=1.0, gramSize=1, verbose=false, encoding=UTF-8, confusionMatrix=null, defaultCat=unknown, testDirPath=/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract}
+42204 INFO  bayes.BayesClassifierMapper  - Testing Bayes Classifier
+42215 INFO  bayes.SequenceFileModelReader  - 4.365993800586751
+42219 INFO  bayes.InMemoryBayesDatastore  - scifi -35.0113548753264 35.0113548753264 -1.0
+42219 INFO  bayes.InMemoryBayesDatastore  - fantasy -29.380574770799143 35.0113548753264 -0.8391727448258381
+42220 INFO  mapred.MapTask  - Starting flush of map output
+42222 INFO  mapred.MapTask  - Finished spill 0
+42223 INFO  mapred.Task  - Task:attempt_local_0005_m_000001_0 is done. And is in the process of commiting
+43135 INFO  mapred.JobClient  -  map 100% reduce 0%
+45142 INFO  mapred.LocalJobRunner  - file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract/scifi:0+110
+45143 INFO  mapred.Task  - Task 'attempt_local_0005_m_000001_0' done.
+45150 INFO  mapred.LocalJobRunner  - 
+45152 INFO  mapred.Merger  - Merging 2 sorted segments
+45153 INFO  mapred.Merger  - Down to the last merge-pass, with 2 segments left of total size: 70 bytes
+45153 INFO  mapred.LocalJobRunner  - 
+45157 INFO  mapred.Task  - Task:attempt_local_0005_r_000000_0 is done. And is in the process of commiting
+45157 INFO  mapred.LocalJobRunner  - 
+45158 INFO  mapred.Task  - Task attempt_local_0005_r_000000_0 is allowed to commit now
+45159 INFO  mapred.FileOutputCommitter  - Saved output of task 'attempt_local_0005_r_000000_0' to file:/home/drew/projects/taming-text/svn/book/target/test-output/extract-test/extract-output
+48150 INFO  mapred.LocalJobRunner  - Bayes Classifier Reducer: [__CT, scifi, scifi] => 3.0 > reduce
+48151 INFO  mapred.Task  - Task 'attempt_local_0005_r_000000_0' done.
+49137 INFO  mapred.JobClient  -  map 100% reduce 100%
+49138 INFO  mapred.JobClient  - Job complete: job_local_0005
+49138 INFO  mapred.JobClient  - Counters: 17
+49138 INFO  mapred.JobClient  -   File Input Format Counters 
+49139 INFO  mapred.JobClient  -     Bytes Read=250
+49139 INFO  mapred.JobClient  -   File Output Format Counters 
+49139 INFO  mapred.JobClient  -     Bytes Written=189
+49139 INFO  mapred.JobClient  -   FileSystemCounters
+49139 INFO  mapred.JobClient  -     FILE_BYTES_READ=25000373
+49139 INFO  mapred.JobClient  -     FILE_BYTES_WRITTEN=25677129
+49139 INFO  mapred.JobClient  -   Map-Reduce Framework
+49139 INFO  mapred.JobClient  -     Map output materialized bytes=78
+49139 INFO  mapred.JobClient  -     Map input records=6
+49139 INFO  mapred.JobClient  -     Reduce shuffle bytes=0
+49139 INFO  mapred.JobClient  -     Spilled Records=4
+49139 INFO  mapred.JobClient  -     Map output bytes=186
+49139 INFO  mapred.JobClient  -     Map input bytes=250
+49139 INFO  mapred.JobClient  -     SPLIT_RAW_BYTES=290
+49140 INFO  mapred.JobClient  -     Combine input records=6
+49140 INFO  mapred.JobClient  -     Reduce input records=2
+49140 INFO  mapred.JobClient  -     Reduce input groups=2
+49140 INFO  mapred.JobClient  -     Combine output records=2
+49140 INFO  mapred.JobClient  -     Reduce output records=2
+49140 INFO  mapred.JobClient  -     Map output records=6
+49147 INFO  bayes.BayesClassifierDriver  - =======================================================
+Confusion Matrix
+-------------------------------------------------------
+a    	b    	<--Classified as
+3    	0    	 |  3     	a     = fantasy
+0    	3    	 |  3     	b     = scifi
+
+
+49148 INFO  solr.SolrTestCaseJ4  - ###Ending testExtract
+49165 INFO  solr.SolrTestCaseJ4  - ###deleteCore
+49165 INFO  core.SolrCore  - []  CLOSING SolrCore org.apache.solr.core.SolrCore@a25ef73
+49165 INFO  update.UpdateHandler  - closing DirectUpdateHandler2{commits=1,autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=6,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+49165 INFO  update.UpdateHandler  - closed DirectUpdateHandler2{commits=1,autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=6,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+49166 INFO  core.SolrCore  - [] Closing main searcher on request.
+49166 INFO  search.SolrIndexSearcher  - Closing Searcher@1531164 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}

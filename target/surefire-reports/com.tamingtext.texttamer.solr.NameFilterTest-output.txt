@@ -1,0 +1,400 @@
+'The'
+positionIncrement=1
+startOffset=0,endOffset=3
+--- pass: 0
+'quick'
+positionIncrement=1
+startOffset=4,endOffset=9
+--- pass: 0
+'brown'
+positionIncrement=1
+startOffset=10,endOffset=15
+--- pass: 0
+'fox'
+positionIncrement=1
+startOffset=16,endOffset=19
+--- pass: 0
+'jumped'
+positionIncrement=1
+startOffset=20,endOffset=26
+--- pass: 0
+'over'
+positionIncrement=1
+startOffset=27,endOffset=31
+--- pass: 0
+'NE_person'
+positionIncrement=1
+startOffset=32,endOffset=39
+--- pass: 0
+'William'
+positionIncrement=0
+startOffset=32,endOffset=39
+--- pass: 0
+'NE_person'
+positionIncrement=1
+startOffset=40,endOffset=44
+--- pass: 0
+'Taft'
+positionIncrement=0
+startOffset=40,endOffset=44
+--- pass: 0
+'the'
+positionIncrement=1
+startOffset=45,endOffset=48
+--- pass: 0
+'President'
+positionIncrement=1
+startOffset=49,endOffset=58
+--- pass: 0
+'.'
+positionIncrement=1
+startOffset=58,endOffset=59
+--- pass: 0
+'There'
+positionIncrement=1
+startOffset=60,endOffset=65
+--- pass: 0
+'once'
+positionIncrement=1
+startOffset=66,endOffset=70
+--- pass: 0
+'was'
+positionIncrement=1
+startOffset=71,endOffset=74
+--- pass: 0
+'a'
+positionIncrement=1
+startOffset=75,endOffset=76
+--- pass: 0
+'man'
+positionIncrement=1
+startOffset=77,endOffset=80
+--- pass: 0
+'from'
+positionIncrement=1
+startOffset=81,endOffset=85
+--- pass: 0
+'NE_location'
+positionIncrement=1
+startOffset=86,endOffset=89
+--- pass: 0
+'New'
+positionIncrement=0
+startOffset=86,endOffset=89
+--- pass: 0
+'NE_location'
+positionIncrement=1
+startOffset=90,endOffset=94
+--- pass: 0
+'York'
+positionIncrement=0
+startOffset=90,endOffset=94
+--- pass: 0
+'NE_location'
+positionIncrement=1
+startOffset=95,endOffset=99
+--- pass: 0
+'City'
+positionIncrement=0
+startOffset=95,endOffset=99
+--- pass: 0
+'who'
+positionIncrement=1
+startOffset=100,endOffset=103
+--- pass: 0
+'had'
+positionIncrement=1
+startOffset=104,endOffset=107
+--- pass: 0
+'to'
+positionIncrement=1
+startOffset=108,endOffset=110
+--- pass: 0
+'catch'
+positionIncrement=1
+startOffset=111,endOffset=116
+--- pass: 0
+'the'
+positionIncrement=1
+startOffset=117,endOffset=120
+--- pass: 0
+'bus'
+positionIncrement=1
+startOffset=121,endOffset=124
+--- pass: 0
+'at'
+positionIncrement=1
+startOffset=125,endOffset=127
+--- pass: 0
+'NE_time'
+positionIncrement=1
+startOffset=128,endOffset=130
+--- pass: 0
+'10'
+positionIncrement=0
+startOffset=128,endOffset=130
+--- pass: 0
+'NE_time'
+positionIncrement=1
+startOffset=130,endOffset=131
+--- pass: 0
+':'
+positionIncrement=0
+startOffset=130,endOffset=131
+--- pass: 0
+'NE_time'
+positionIncrement=1
+startOffset=131,endOffset=133
+--- pass: 0
+'30'
+positionIncrement=0
+startOffset=131,endOffset=133
+--- pass: 0
+'in'
+positionIncrement=1
+startOffset=134,endOffset=136
+--- pass: 0
+'the'
+positionIncrement=1
+startOffset=137,endOffset=140
+--- pass: 0
+'morning'
+positionIncrement=1
+startOffset=141,endOffset=148
+--- pass: 0
+'of'
+positionIncrement=1
+startOffset=149,endOffset=151
+--- pass: 0
+'NE_date'
+positionIncrement=1
+startOffset=152,endOffset=160
+--- pass: 0
+'December'
+positionIncrement=0
+startOffset=152,endOffset=160
+--- pass: 0
+'NE_date'
+positionIncrement=1
+startOffset=161,endOffset=163
+--- pass: 0
+'21'
+positionIncrement=0
+startOffset=161,endOffset=163
+--- pass: 0
+'NE_date'
+positionIncrement=1
+startOffset=163,endOffset=164
+--- pass: 0
+','
+positionIncrement=0
+startOffset=163,endOffset=164
+--- pass: 0
+'NE_date'
+positionIncrement=1
+startOffset=165,endOffset=169
+--- pass: 0
+'1992'
+positionIncrement=0
+startOffset=165,endOffset=169
+--- pass: 0
+'The'
+positionIncrement=1
+startOffset=0,endOffset=3
+--- pass: 1
+'quick'
+positionIncrement=1
+startOffset=4,endOffset=9
+--- pass: 1
+'brown'
+positionIncrement=1
+startOffset=10,endOffset=15
+--- pass: 1
+'fox'
+positionIncrement=1
+startOffset=16,endOffset=19
+--- pass: 1
+'jumped'
+positionIncrement=1
+startOffset=20,endOffset=26
+--- pass: 1
+'over'
+positionIncrement=1
+startOffset=27,endOffset=31
+--- pass: 1
+'NE_person'
+positionIncrement=1
+startOffset=32,endOffset=39
+--- pass: 1
+'William'
+positionIncrement=0
+startOffset=32,endOffset=39
+--- pass: 1
+'NE_person'
+positionIncrement=1
+startOffset=40,endOffset=44
+--- pass: 1
+'Taft'
+positionIncrement=0
+startOffset=40,endOffset=44
+--- pass: 1
+'the'
+positionIncrement=1
+startOffset=45,endOffset=48
+--- pass: 1
+'President'
+positionIncrement=1
+startOffset=49,endOffset=58
+--- pass: 1
+'.'
+positionIncrement=1
+startOffset=58,endOffset=59
+--- pass: 1
+'There'
+positionIncrement=1
+startOffset=60,endOffset=65
+--- pass: 1
+'once'
+positionIncrement=1
+startOffset=66,endOffset=70
+--- pass: 1
+'was'
+positionIncrement=1
+startOffset=71,endOffset=74
+--- pass: 1
+'a'
+positionIncrement=1
+startOffset=75,endOffset=76
+--- pass: 1
+'man'
+positionIncrement=1
+startOffset=77,endOffset=80
+--- pass: 1
+'from'
+positionIncrement=1
+startOffset=81,endOffset=85
+--- pass: 1
+'NE_location'
+positionIncrement=1
+startOffset=86,endOffset=89
+--- pass: 1
+'New'
+positionIncrement=0
+startOffset=86,endOffset=89
+--- pass: 1
+'NE_location'
+positionIncrement=1
+startOffset=90,endOffset=94
+--- pass: 1
+'York'
+positionIncrement=0
+startOffset=90,endOffset=94
+--- pass: 1
+'NE_location'
+positionIncrement=1
+startOffset=95,endOffset=99
+--- pass: 1
+'City'
+positionIncrement=0
+startOffset=95,endOffset=99
+--- pass: 1
+'who'
+positionIncrement=1
+startOffset=100,endOffset=103
+--- pass: 1
+'had'
+positionIncrement=1
+startOffset=104,endOffset=107
+--- pass: 1
+'to'
+positionIncrement=1
+startOffset=108,endOffset=110
+--- pass: 1
+'catch'
+positionIncrement=1
+startOffset=111,endOffset=116
+--- pass: 1
+'the'
+positionIncrement=1
+startOffset=117,endOffset=120
+--- pass: 1
+'bus'
+positionIncrement=1
+startOffset=121,endOffset=124
+--- pass: 1
+'at'
+positionIncrement=1
+startOffset=125,endOffset=127
+--- pass: 1
+'NE_time'
+positionIncrement=1
+startOffset=128,endOffset=130
+--- pass: 1
+'10'
+positionIncrement=0
+startOffset=128,endOffset=130
+--- pass: 1
+'NE_time'
+positionIncrement=1
+startOffset=130,endOffset=131
+--- pass: 1
+':'
+positionIncrement=0
+startOffset=130,endOffset=131
+--- pass: 1
+'NE_time'
+positionIncrement=1
+startOffset=131,endOffset=133
+--- pass: 1
+'30'
+positionIncrement=0
+startOffset=131,endOffset=133
+--- pass: 1
+'in'
+positionIncrement=1
+startOffset=134,endOffset=136
+--- pass: 1
+'the'
+positionIncrement=1
+startOffset=137,endOffset=140
+--- pass: 1
+'morning'
+positionIncrement=1
+startOffset=141,endOffset=148
+--- pass: 1
+'of'
+positionIncrement=1
+startOffset=149,endOffset=151
+--- pass: 1
+'NE_date'
+positionIncrement=1
+startOffset=152,endOffset=160
+--- pass: 1
+'December'
+positionIncrement=0
+startOffset=152,endOffset=160
+--- pass: 1
+'NE_date'
+positionIncrement=1
+startOffset=161,endOffset=163
+--- pass: 1
+'21'
+positionIncrement=0
+startOffset=161,endOffset=163
+--- pass: 1
+'NE_date'
+positionIncrement=1
+startOffset=163,endOffset=164
+--- pass: 1
+','
+positionIncrement=0
+startOffset=163,endOffset=164
+--- pass: 1
+'NE_date'
+positionIncrement=1
+startOffset=165,endOffset=169
+--- pass: 1
+'1992'
+positionIncrement=0
+startOffset=165,endOffset=169
+--- pass: 1

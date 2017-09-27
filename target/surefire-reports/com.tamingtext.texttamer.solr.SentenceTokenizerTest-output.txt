@@ -1,0 +1,39 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/drew/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/drew/.m2/repository/edu/ucar/netcdf/4.2/netcdf-4.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+0    WARN  util.OpenNLPUtil  - modelLanguage argument or model.language property not set, using default: en
+2    INFO  util.OpenNLPUtil  - Model directory is: /home/drew/projects/taming-text/svn/book/opennlp-models
+3    INFO  util.SentenceDetectorFactory  - Loading sentence model /home/drew/projects/taming-text/svn/book/opennlp-models/en-sent.bin
+'A man, a plan, a canal, Panama!'
+positionIncrement=1
+startOffset=0,endOffset=31
+--- pass: 0
+'No matter where you go, there you are.'
+positionIncrement=1
+startOffset=32,endOffset=70
+--- pass: 0
+'You are in a maze of twisty, little, passages.'
+positionIncrement=1
+startOffset=71,endOffset=117
+--- pass: 0
+'Use the force Luke.'
+positionIncrement=1
+startOffset=118,endOffset=137
+--- pass: 0
+'A man, a plan, a canal, Panama!'
+positionIncrement=1
+startOffset=0,endOffset=31
+--- pass: 1
+'No matter where you go, there you are.'
+positionIncrement=1
+startOffset=32,endOffset=70
+--- pass: 1
+'You are in a maze of twisty, little, passages.'
+positionIncrement=1
+startOffset=71,endOffset=117
+--- pass: 1
+'Use the force Luke.'
+positionIncrement=1
+startOffset=118,endOffset=137
+--- pass: 1

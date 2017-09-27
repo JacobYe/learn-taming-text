@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.tamingtext.qa.PassageRankingComponentTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.742 sec

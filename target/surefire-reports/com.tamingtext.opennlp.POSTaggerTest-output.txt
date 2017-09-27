@@ -1,0 +1,2 @@
+The/DT quick/JJ ,/, red/JJ fox/NN jumped/VBD over/IN the/DT lazy/JJ ,/, brown/JJ dogs/NNS ./. 
+

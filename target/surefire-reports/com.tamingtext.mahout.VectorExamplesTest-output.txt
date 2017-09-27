@@ -1,0 +1,2 @@
+0    WARN  util.NativeCodeLoader  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2    INFO  compress.CodecPool  - Got brand-new compressor

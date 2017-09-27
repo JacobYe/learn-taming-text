@@ -1,0 +1,106 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/drew/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/drew/.m2/repository/edu/ucar/netcdf/4.2/netcdf-4.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+0    INFO  solr.SolrTestCaseJ4  - ####initCore
+17   INFO  core.SolrResourceLoader  - JNDI not configured for solr (NoInitialContextEx)
+17   INFO  core.SolrResourceLoader  - using system property solr.solr.home: /home/drew/projects/taming-text/svn/book/target/test-classes/solr
+18   INFO  core.SolrResourceLoader  - new SolrResourceLoader for deduced Solr Home: '/home/drew/projects/taming-text/svn/book/target/test-classes/solr/'
+252  INFO  core.SolrConfig  - Using Lucene MatchVersion: LUCENE_31
+330  INFO  core.Config  - Loaded SolrConfig: solrconfig-qa-prc.xml
+339  INFO  schema.IndexSchema  - Reading Solr Schema
+346  INFO  schema.IndexSchema  - Schema name=test-qa
+365  INFO  plugin.AbstractPluginLoader  - created string: org.apache.solr.schema.StrField
+378  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+386  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.StopFilterFactory
+388  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.WordDelimiterFilterFactory
+390  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.LowerCaseFilterFactory
+391  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+393  INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.PorterStemFilterFactory
+401  INFO  plugin.AbstractPluginLoader  - created : com.tamingtext.texttamer.solr.SentenceTokenizerFactory
+403  WARN  util.OpenNLPUtil  - modelLanguage argument or model.language property not set, using default: en
+403  INFO  util.OpenNLPUtil  - Model directory is: opennlp-models
+403  INFO  util.SentenceDetectorFactory  - Loading sentence model opennlp-models/en-sent.bin
+493  INFO  plugin.AbstractPluginLoader  - created : com.tamingtext.texttamer.solr.NameFilterFactory
+495  WARN  util.OpenNLPUtil  - modelLanguage argument or model.language property not set, using default: en
+496  INFO  util.OpenNLPUtil  - Model directory is: opennlp-models
+496  INFO  util.NameFinderFactory  - Loading name finder models from opennlp-models using prefix en-ner 
+498  INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-organization.bin
+6595 INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-date.bin
+11910 INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-percentage.bin
+17176 INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-location.bin
+22485 INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-money.bin
+28329 INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-time.bin
+34194 INFO  util.NameFinderFactory  - Loading model opennlp-models/en-ner-person.bin
+39535 INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.LowerCaseFilterFactory
+39535 INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.StopFilterFactory
+39535 INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+39535 INFO  plugin.AbstractPluginLoader  - created : org.apache.solr.analysis.PorterStemFilterFactory
+39537 INFO  plugin.AbstractPluginLoader  - created text: org.apache.solr.schema.TextField
+39545 INFO  schema.IndexSchema  - default search field in schema is details
+39549 INFO  schema.IndexSchema  - unique key field: id
+39689 INFO  core.SolrResourceLoader  - JNDI not configured for solr (NoInitialContextEx)
+39689 INFO  core.SolrResourceLoader  - using system property solr.solr.home: /home/drew/projects/taming-text/svn/book/target/test-classes/solr
+39690 INFO  core.SolrResourceLoader  - new SolrResourceLoader for directory: '/home/drew/projects/taming-text/svn/book/target/test-classes/solr/'
+39711 INFO  core.SolrCore  - Opening new SolrCore at /home/drew/projects/taming-text/svn/book/target/test-classes/solr/, dataDir=/tmp/solrtest-PassageRankingComponentTest-1357095505862/
+39711 INFO  core.SolrCore  - JMX monitoring not detected for core: null
+39715 WARN  core.SolrCore  - Solr index directory '/tmp/solrtest-PassageRankingComponentTest-1357095505862/index' doesn't exist. Creating new index...
+39884 INFO  core.SolrCore  - SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=/tmp/solrtest-PassageRankingComponentTest-1357095505862/index,segFN=segments_1,version=1357095545637,generation=1,filenames=[segments_1]
+39884 INFO  core.SolrCore  - newest commit = 1357095545637
+39974 INFO  core.RequestHandlers  - created standard: solr.StandardRequestHandler
+39997 INFO  search.SolrIndexSearcher  - Opening Searcher@43a3aa2c main
+40011 INFO  core.SolrCore  - commitTracker AutoCommit: disabled
+40022 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.QueryComponent@7d20b2da
+40022 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.FacetComponent@6dbe4663
+40022 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@66ff45de
+40022 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.HighlightComponent@14426a6
+40022 INFO  component.SearchHandler  - Adding  component:org.apache.solr.handler.component.StatsComponent@21455cf0
+40022 INFO  component.SearchHandler  - Adding  component:com.tamingtext.qa.PassageRankingComponent@50d8a1a0
+40022 INFO  component.SearchHandler  - Adding  debug component:org.apache.solr.handler.component.DebugComponent@3e5b38d7
+40023 INFO  component.HttpShardHandlerFactory  - Setting socketTimeout to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting urlScheme to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting connTimeout to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting maxConnectionsPerHost to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting corePoolSize to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting maximumPoolSize to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting maxThreadIdleTime to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting sizeOfQueue to: 0
+40023 INFO  component.HttpShardHandlerFactory  - Setting fairnessPolicy to: 0
+40052 INFO  core.CoreContainer  - registering core: 
+40052 INFO  core.SolrCore  - [] Registered new searcher Searcher@43a3aa2c main
+40076 INFO  solr.SolrTestCaseJ4  - ####initCore end
+40085 INFO  solr.SolrTestCaseJ4  - ###Starting testComponent
+40144 INFO  core.SolrCore  - SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/tmp/solrtest-PassageRankingComponentTest-1357095505862/index,segFN=segments_1,version=1357095545637,generation=1,filenames=[segments_1]
+40144 INFO  core.SolrCore  - newest commit = 1357095545637
+40216 INFO  processor.LogUpdateProcessor  - {add=[1234]} 0 123
+40250 INFO  processor.LogUpdateProcessor  - {add=[1235]} 0 31
+40254 INFO  update.UpdateHandler  - start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+40326 INFO  core.SolrCore  - SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/tmp/solrtest-PassageRankingComponentTest-1357095505862/index,segFN=segments_1,version=1357095545637,generation=1,filenames=[segments_1]
+	commit{dir=/tmp/solrtest-PassageRankingComponentTest-1357095505862/index,segFN=segments_2,version=1357095545639,generation=2,filenames=[_0.tis, _0.nrm, _0.fnm, _0.tii, _0.tvx, _0.frq, _0.tvd, segments_2, _0.fdx, _0.tvf, _0.prx, _0.fdt]
+40327 INFO  core.SolrCore  - newest commit = 1357095545639
+40341 INFO  search.SolrIndexSearcher  - Opening Searcher@9dd1752 main
+40342 INFO  update.UpdateHandler  - end_commit_flush
+40344 INFO  search.SolrIndexSearcher  - autowarming Searcher@9dd1752 main from Searcher@43a3aa2c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+40346 INFO  search.SolrIndexSearcher  - autowarming result for Searcher@9dd1752 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+40346 INFO  core.SolrCore  - [] Registered new searcher Searcher@9dd1752 main
+40347 INFO  search.SolrIndexSearcher  - Closing Searcher@43a3aa2c main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+40347 INFO  processor.LogUpdateProcessor  - {commit=} 0 94
+40392 INFO  core.SolrCore  - [] webapp=null path=null params={q=*:*&qa=false&defType=lucene} hits=2 status=0 QTime=42 
+40413 INFO  core.SolrCore  - [] webapp=null path=null params={q=details:hockey&qa=false&defType=lucene} hits=1 status=0 QTime=10 
+40426 DEBUG qa.PassageRankingComponent  - Candidate: Doc: 1 Start: 5 End: 7 
+40427 DEBUG qa.PassageRankingComponent  - Passage does not have correct offset information
+40427 INFO  core.SolrCore  - [] webapp=null path=null params={start=0&q=Who+is+the+greatest+hockey+player+of+all+time?&qt=standard&rows=20&version=2.2} hits=1 status=0 QTime=10 
+40431 INFO  solr.SolrTestCaseJ4  - ###Ending testComponent
+40452 INFO  solr.SolrTestCaseJ4  - ###deleteCore
+40452 INFO  core.SolrCore  - []  CLOSING SolrCore org.apache.solr.core.SolrCore@7279df82
+40453 INFO  update.UpdateHandler  - closing DirectUpdateHandler2{commits=1,autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=2,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+40453 INFO  update.UpdateHandler  - closed DirectUpdateHandler2{commits=1,autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=2,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+40454 INFO  core.SolrCore  - [] Closing main searcher on request.
+40454 INFO  search.SolrIndexSearcher  - Closing Searcher@9dd1752 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}

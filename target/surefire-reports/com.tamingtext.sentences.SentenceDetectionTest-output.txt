@@ -1,0 +1,7 @@
+Sentence: This is a sentence.  
+Sentence: It has fruits, vegetables, etc. but does not have meat.  
+Sentence: Mr. 
+Sentence: Smith went to Washington.
+Sentence: This is a sentence.
+Sentence: It has fruits, vegetables, etc. but does not have meat.
+Sentence: Mr. Smith went to Washington.
