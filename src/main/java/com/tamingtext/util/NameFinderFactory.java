@@ -38,7 +38,7 @@ import com.tamingtext.opennlp.PooledTokenNameFinderModel;
  *  all of the name finder models files found in a single directory into memory
  *  and instantiating an array of NameFinderME objects.
  */
-public class NameFinderFactory {
+public class  NameFinderFactory {
   
   private static final Logger log = LoggerFactory.getLogger(NameFinderFactory.class);
 

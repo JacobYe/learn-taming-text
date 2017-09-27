@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.tamingtext.classifier.bayes.BayesUpdateRequestProcessorTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.627 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.272 sec

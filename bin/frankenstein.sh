@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #/bin/sh
 if  [ -z $JAVA_HOME ] ; then
  export JAVA_HOME="/Library/Java/Home"
