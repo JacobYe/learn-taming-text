@@ -23,3 +23,21 @@ hs_err_pid*
 
 # macOS
 *.DS_Store
+
+# origin
+output.log
+target
+*.iml
+.classpath
+.project
+.settings
+#WordNet-3.0
+#WordNet-3.0.tar.gz
+#opennlp-models
+#apache-solr/solr-qa/data
+#apache-solr/solr-qa/conf/dataimport.properties
+#apache-solr/solr-tagging/data
+#apache-solr/solr-tagging/conf/dataimport.properties
+#apache-solr/solr-clustering/data
+#apache-solr/solr-clustering/conf/dataimport.properties
+
